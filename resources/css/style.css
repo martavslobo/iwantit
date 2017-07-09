@@ -1,30 +1,46 @@
 html {
-  background-image: href="./resources/5.pdf";
-  font-family: Verdana, sans-serif;
+  background-image: url("https://cdn.quizme.se/quiz/DxkrpvQVeUm8_189x189_2mRPEZPf.jpg");
+  font-family: Verdana;
   text-align: center;
-}
-
-h1, h2 {
   color: white;
 }
 
 h1 {
-  font-size: 50px;
+  font-size: 80px;
 }
 
 h2 {
-  font-size: 42px;
+  font-size: 12px;
   font-weight: 300;
 }
 
-h3 {
-  font-size: 21px;
-  color: gray;
+/* Style the tab buttons */
+.tablink {
+    background-color: #555;
+    color: white;
+    float: center;
+    border: none;
+    outline: none;
+    cursor: hand;
+    padding: 14px 16px;
+    font-size: 17px;
+    width: 25%;
 }
 
-h4 {
-  font-size: 16px;
-  color: aquamarine;
-  text-decoration: underline;
-  font-weight: normal;
+/* Change background color of buttons on hover */
+.tablink:hover {
+    background-color: #777;
 }
+
+/* Set default styles for tab content */
+.tabcontent {
+    color: white;
+    display: none;
+    padding: 50px;
+    text-align: center;
+}
+
+/* Style each tab content individually */
+#WhyShillington {opacity: 0.2;}
+#Creativity {opacity: 0.2;}
+#Outcomes {opacity: 0.2;}
