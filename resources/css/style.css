@@ -1,5 +1,5 @@
 html {
-  background-image: url("./resources/pattern.png");
+  background-image: href("./resources/pattern.png");
   font-family: Verdana;
   text-align: center;
   color: white;
