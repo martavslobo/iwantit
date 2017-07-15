@@ -21,7 +21,7 @@ h2 {
     float: center;
     border: none;
     outline: none;
-    cursor: hand;
+    cursor: pointer;
     padding: 14px 16px;
     font-size: 17px;
     width: 25%;
