@@ -1,5 +1,5 @@
 html {
-  background-image: href("./resources/pattern.png");
+  background-image: url("https://raw.githubusercontent.com/martavslobo/iwantit/master/resources/pattern.png");
   font-family: Verdana;
   text-align: center;
   color: white;
