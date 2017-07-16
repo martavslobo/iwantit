@@ -1,12 +1,12 @@
 html {
   background-image: url("https://raw.githubusercontent.com/martavslobo/iwantit/master/resources/pattern.png");
-  font-family: Woom;
+  font-family: arial;
   text-align: center;
   color: #262626;
 }
 
 h1 {
-  font-size: 80px;
+  font-size: 100px;
   display: block;
 }
 
