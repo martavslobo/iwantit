@@ -52,3 +52,11 @@ h2 {
 #WhyShillington {opacity: 0.5;}
 #Creativity {opacity: 0.5;}
 #Outcomes {opacity: 0.5;}
+
+#footer {
+    color: #262626;
+    font-size: 12px;
+    position: absolute;
+    padding: 50px;
+    text-align: center;
+}
