@@ -34,7 +34,7 @@ h2 {
     font-size: 17px;
     width: 25%;
     position: relative;
-    display: block;
+    display: inline-flex;
 }
 
 /* Change background color of buttons on hover */
@@ -44,9 +44,9 @@ h2 {
 
 /* Set default styles for tab content */
 .tabcontent {
-    color: white;
-    display: none;
-    padding: 50px;
+    color: #262626;
+    background-color: white;
+    display: block;
     text-align: center;
 }
 
