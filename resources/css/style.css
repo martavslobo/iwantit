@@ -34,7 +34,7 @@ h2 {
     font-size: 17px;
     width: 25%;
     position: relative;
-    display: inline-flex;
+    display: in-line;
 }
 
 /* Change background color of buttons on hover */
