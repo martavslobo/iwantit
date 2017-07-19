@@ -50,9 +50,9 @@ h2 {
 }
 
 /* Style each tab content individually */
-#WhyShillington {opacity: 1;}
-#Creativity {opacity: 1;}
-#Outcomes {opacity: 1;}
+#WhyShillington {opacity: 100;}
+#Creativity {opacity: 100;}
+#Outcomes {opacity: 100;}
 
 /* Footer */
 #footer {
