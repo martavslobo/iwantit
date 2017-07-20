@@ -41,6 +41,7 @@ h2 {
 /* Style the tab content */
 .tabcontent {
     color: #262626;
+    font-size: 14px;
     display: none;
     padding: 50px;
     text-align: center;
