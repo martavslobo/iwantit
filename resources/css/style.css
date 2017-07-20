@@ -45,6 +45,7 @@ p {
 
 /* Style the tab content */
 .tabcontent {
+    background-color: #fff;
     color: #262626;
     font-size: 14px;
     display: none;
