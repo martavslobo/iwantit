@@ -15,6 +15,16 @@ h2 {
   font-weight: 300;
 }
 
+h2 {
+  font-size: 12px;
+  font-weight: 300;
+}
+
+h3 {
+  font-size: 12px;
+  font-color: #262626;
+}
+
 #animation {
   position: relative;
   height: 200px;
