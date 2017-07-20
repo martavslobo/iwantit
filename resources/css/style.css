@@ -16,7 +16,7 @@ h2 {
 }
 
 p {
-  width: 25%;
+  width: 50px;
 }
 
 #animation {
@@ -49,7 +49,6 @@ p {
     display: none;
     padding: 50px;
     text-align: center;
-    width: 25%;
 }
 
 #Shillington #Creativity #Outcomes {background-color:white;}
