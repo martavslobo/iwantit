@@ -1,6 +1,6 @@
 html {
   background-image: url("https://raw.githubusercontent.com/martavslobo/iwantit/master/resources/pattern.png");
-  font-family: Helvetica;
+  font-family: Trebuchet MS;
   text-align: center;
   color: #262626;
 }
@@ -22,32 +22,33 @@ h2 {
   display: block;
 }
 
-/* Style the buttons that are used to open and close the accordion panel */
-button.accordion {
-    background-color: #eee;
-    color: #444;
-    cursor: pointer;
-    padding: 18px;
-    width: 100%;
-    text-align: left;
+.tablink {
+    background-color: #555;
+    color: white;
+    float: center;
     border: none;
     outline: none;
-    transition: 0.4s;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 17px;
+    width: 25%;
 }
 
-/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
-button.accordion.active, button.accordion:hover {
-    background-color: #ddd;
+.tablink:hover {
+    background-color: #777;
 }
 
-/* Style the accordion panel. Note: hidden by default */
-div.panel {
-    padding: 0 18px;
-    background-color: white;
+/* Style the tab content */
+.tabcontent {
+    color: #262626;
     display: none;
+    padding: 50px;
+    text-align: center;
 }
 
-/* Footer */
+#Shillington #Creativity #Outcomes {background-color:white;}
+
+
 #footer {
     color: #262626;
     font-size: 12px;

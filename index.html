@@ -11,49 +11,54 @@
 
   <!--Animation-->
   <div id="animation">
-  <img align=center; height=200px; src="https://raw.githubusercontent.com/martavslobo/iwantit/master/resources/story_animation.gif">
+    <img align=center; height=200px; src="https://raw.githubusercontent.com/martavslobo/iwantit/master/resources/story_animation.gif">
   </div>
 
   <!--Content-->
-  <!--Content1-->
-  <button class="accordion">Section 1</button>
-<div class="panel">
-  <p>Lorem ipsum...</p>
-</div>
+  <div id="#Shillington" class="tabcontent">
+    <h3>#Shillington</h3>
+    <p>London is the capital city of England.</p>
+  </div>
 
-<button class="accordion">Section 2</button>
-<div class="panel">
-  <p>Lorem ipsum...</p>
-</div>
+  <div id="#Creativity" class="tabcontent">
+    <h3>#Creativity</h3>
+    <p>Paris is the capital of France.</p>
+  </div>
 
-<button class="accordion">Section 3</button>
-<div class="panel">
-  <p>Lorem ipsum...</p>
-</div>
+  <div id="#Outcomes" class="tabcontent">
+    <h3>#Outcomes</h3>
+    <p>Tokyo is the capital of Japan.</p>
+  </div>
+
+  <!--Buttons-->
+  <button class="tablink" onclick="openQuestion('#Shillington', this, '#777')" id="defaultOpen">#Shillington</button>
+
+  <button class="tablink" onclick="openQuestion('#Creativity', this, '#777')">#Creativity</button>
+
+  <button class="tablink" onclick="openQuestion('#Outcomes', this, '#777')">#Outcomes</button>
+
+
+  <script>
+  function openQuestion(questionName,elmnt,color) {
+    var i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablink");
+    for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].style.backgroundColor = "";
+    }
+    document.getElementById(questionName).style.display = "block";
+    elmnt.style.backgroundColor = color;
+
+    }
+  // Get the element with id="defaultOpen" and click on it
+  document.getElementById("defaultOpen").click();
+  </script>
 
   <!--Footer-->
   <h4 id="footer">martavslobo@gmail.com</h4>
-
-  <script>
-  var acc = document.getElementsByClassName("accordion");
-var i;
-
-for (i = 0; i < acc.length; i++) {
-    acc[i].onclick = function(){
-        /* Toggle between adding and removing the "active" class,
-        to highlight the button that controls the panel */
-        this.classList.toggle("active");
-
-        /* Toggle between hiding and showing the active panel */
-        var panel = this.nextElementSibling;
-        if (panel.style.display === "block") {
-            panel.style.display = "none";
-        } else {
-            panel.style.display = "block";
-        }
-    }
-}
-  </script>
 
 </body>
 </html>
