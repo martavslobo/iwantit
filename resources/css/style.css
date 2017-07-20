@@ -41,11 +41,12 @@ h2 {
 /* Style the tab content */
 .tabcontent {
     color: #262626;
+    background-color: white;
     font-size: 14px;
     display: none;
     padding: 50px;
     text-align: center;
-    max-width: 150;
+    max-width: 300px;
 }
 
 #Shillington #Creativity #Outcomes {background-color:white;}
