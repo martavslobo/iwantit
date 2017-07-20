@@ -1,6 +1,6 @@
 html {
   background-image: url("https://raw.githubusercontent.com/martavslobo/iwantit/master/resources/pattern.png");
-  font-family: Trebuchet MS;
+  font-family: Helvetica;
   text-align: center;
   color: #262626;
 }
@@ -33,8 +33,6 @@ h2 {
     padding: 14px 16px;
     font-size: 17px;
     width: 25%;
-    position: relative;
-    display: in-line;
 }
 
 /* Change background color of buttons on hover */
@@ -45,16 +43,15 @@ h2 {
 /* Set default styles for tab content */
 .tabcontent {
     color: #262626;
-    background-color: white;
-    display: block;
+    display: none;
+    padding: 50px;
     text-align: center;
 }
 
 /* Style each tab content individually */
-#WhyShillington {opacity: 0.5;}
-#Creativity {opacity: 0.5;}
-#Outcomes {opacity: 0.5;}
+#Shillington #Creativity #Outcomes {background-color:white;}
 
+/* Footer */
 #footer {
     color: #262626;
     font-size: 12px;
