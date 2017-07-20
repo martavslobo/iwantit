@@ -35,7 +35,7 @@ h3 {
 .tablink {
     background-color: #555;
     color: white;
-    float: center;
+    float: top;
     border: none;
     outline: none;
     cursor: pointer;
